@@ -6,18 +6,24 @@ body {
 }
 
 .hero {
-    background: url('../images/about-hero.jpg') no-repeat center center/cover;
+    background: url('../images/aboutusHerophoto.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 4em 1em;
+    padding: 5em 1em;
 }
 .hero h1 {
     font-size: 3em;
     margin: 0;
+    stroke: black;
+    stroke-opacity: 0;
+    text-shadow: 0em 0em 1em black;
 }
 .hero p {
     font-size: 1.2em;
-    margin-top: 0.5em;
+    margin-top: 7em;
+    stroke: black;
+    stroke-opacity: 0;
+    text-shadow: 0em 0em 1em black;
 }
 .about-content {
     padding: 2em 1em;
@@ -41,6 +47,8 @@ body {
 .team-member {
     text-align: center;
     width: 250px;
+
+
 }
 .team-member img {
     width: 100%;
@@ -51,9 +59,11 @@ body {
 .team-member h3 {
     margin: 0.5em 0 0.2em;
 }
-.team-member p {
+.about-content p {
     font-size: 0.9em;
     color: #555;
+    margin: 0.5em 0% 0;
+    text-align: center;
 }
 .mission {
     background: #f4f4f4;
@@ -67,3 +77,4 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+
